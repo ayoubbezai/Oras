@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+
+  /* Blues */
+  --color-blue-600: #2565F0;
+  --color-blue-300: #93C5FD;
+  --color-blue-100: #DBEAFE;
+  --color-blue-50: #FAFCFF;
+  --color-dark-blue: #090F21;
+
+  /* Neutral / Gray */
+  --color-bb: #334155;      /* slate-ish */
+  --color-grey: #32353E;    /* dark gray */
+  --color-grey1: #9A9A9C;   /* lighter gray */
+
+  /* White */
+  --color-white: #FFFFFF;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-blue-600);
+  border-radius: 6px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-blue-600) #f1f1f1;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+}
